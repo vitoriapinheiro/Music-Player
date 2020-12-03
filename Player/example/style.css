@@ -1,0 +1,71 @@
+
+body{
+    background-image: url("../assets/queen_photo.jpg");
+    background-position: top;
+}
+header{
+    color: #fffffb;
+    font-family: cursive;
+    display: inline;
+    text-align: center;
+    font-size: xx-large;
+    width: 100vw;
+    height: 20vh;
+}
+.songs{
+    text-align: center;
+    align-self: center;
+    align-items: center;
+}
+.band{
+    background-image: linear-gradient(to bottom right, #e1429f, #5faaed);
+}
+.player {
+    color: #17062a;
+    font-family: cursive;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 10vh;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom right, #e1429f, #5faaed);
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    background: transparent;
+}
+
+.action {
+    padding: 1em;
+    border: none;
+    background-color: transparent;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.action:hover{
+    border-bottom: 2px solid #e1429f;
+   
+}
+
+.action:active{
+    border-bottom: 2px solid #fbe22d;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    position: relative;
+    background: #471e98;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: 0;
+    background-color: #63abe6;
+    border-radius: 10px;
+}
